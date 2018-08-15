@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding: 200px;
+    color: white;
+    background-image: url(../img/background.png);
+    overflow: auto;
+    border-top: 6px solid #2ecc71;
+    position: relative;
+    
+
+}
+
+header > div{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+h1{
+    font-size: 2.625rem;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    font-weight: 80;
+
+}
+
+.butoes > div{
+    border-radius: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0,5;   
+    height: 35px;
+    width: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+span{
+    color: #2ecc71;
+}
+
+header > img{
+    position: absolute;
+    bottom: 0;
+    right: 4vw;
+    width: 25vw;
+    display: none;
+}
+
+@media (min-width:900px){
+    header > img{
+    display: block;
+    }
+}
+
+.section1{
+    width: 100%;
+    height: 50vh;
+    background-color: gray;
+    display: inline-flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+
